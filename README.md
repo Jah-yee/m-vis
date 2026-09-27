@@ -46,7 +46,23 @@ graph TD
 ## 🚀 Quick Start
 
 ### 1. Installation
-The fastest way to get started is downloading a pre built binary from the [Releases](https://github.com/SickleFire/m-vis/releases) page.
+The fastest way to get started is using our automated installation scripts:
+
+**macOS / Linux** (via `curl` or `wget`):
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/SickleFire/m-vis/master/install.sh | sh
+```
+or
+```bash
+wget -qO- https://raw.githubusercontent.com/SickleFire/m-vis/master/install.sh | sh
+```
+
+**Windows** (via PowerShell):
+```powershell
+iex (iwr -useb https://raw.githubusercontent.com/SickleFire/m-vis/main/install.ps1)
+```
+
+You can also download pre built binaries directly from the [Releases](https://github.com/SickleFire/m-vis/releases) page.
 If you have Rust installed, you can build from source:
 ```bash
 git clone https://github.com/SickleFire/m-vis
