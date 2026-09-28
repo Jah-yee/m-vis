@@ -19,7 +19,7 @@ wget -qO- https://raw.githubusercontent.com/SickleFire/m-vis/master/install.sh |
 ### Windows (PowerShell)
 Open PowerShell as Administrator (or standard user) and run:
 ```powershell
-iex (iwr -useb https://raw.githubusercontent.com/SickleFire/m-vis/main/install.ps1)
+iex (iwr -useb https://raw.githubusercontent.com/SickleFire/m-vis/master/install.ps1)
 ```
 
 ---
