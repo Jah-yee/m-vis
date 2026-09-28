@@ -25,7 +25,7 @@ Quick automated install:
   ```
 - **Windows (PowerShell)**:
   ```powershell
-  iex (iwr -useb https://raw.githubusercontent.com/SickleFire/m-vis/main/install.ps1)
+  iex (iwr -useb https://raw.githubusercontent.com/SickleFire/m-vis/master/install.ps1)
   ```
 
 ### 2. Enter the TUI
