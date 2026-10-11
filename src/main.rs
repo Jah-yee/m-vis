@@ -482,26 +482,65 @@ fn print_help_errors() {
     println!();
     println!("Common error codes and their likely causes:");
     println!();
-    println!("  {:<28} {}", "PROCESS_NOT_FOUND", "Process name not found on the system.");
-    println!("                       {}", "Check the process name and try again.");
+    println!(
+        "  {:<28} {}",
+        "PROCESS_NOT_FOUND", "Process name not found on the system."
+    );
+    println!(
+        "                       {}",
+        "Check the process name and try again."
+    );
     println!();
-    println!("  {:<28} {}", "PERMISSION_DENIED", "Insufficient privileges to inspect the process.");
-    println!("                       {}", "Run mvis with elevated privileges (root/admin).");
+    println!(
+        "  {:<28} {}",
+        "PERMISSION_DENIED", "Insufficient privileges to inspect the process."
+    );
+    println!(
+        "                       {}",
+        "Run mvis with elevated privileges (root/admin)."
+    );
     println!();
-    println!("  {:<28} {}", "PLATFORM_UNSUPPORTED", "Operation not supported on this operating system.");
-    println!("                       {}", "Some commands are platform-specific (e.g. wintrace on Windows).");
+    println!(
+        "  {:<28} {}",
+        "PLATFORM_UNSUPPORTED", "Operation not supported on this operating system."
+    );
+    println!(
+        "                       {}",
+        "Some commands are platform-specific (e.g. wintrace on Windows)."
+    );
     println!();
-    println!("  {:<28} {}", "MISSING_ARG", "A required command-line argument was not provided.");
-    println!("                       {}", "Run 'mvis help <command>' for the correct usage.");
+    println!(
+        "  {:<28} {}",
+        "MISSING_ARG", "A required command-line argument was not provided."
+    );
+    println!(
+        "                       {}",
+        "Run 'mvis help <command>' for the correct usage."
+    );
     println!();
-    println!("  {:<28} {}", "INVALID_ARG", "An argument value is invalid or out of range.");
-    println!("                       {}", "Check the argument value and try again.");
+    println!(
+        "  {:<28} {}",
+        "INVALID_ARG", "An argument value is invalid or out of range."
+    );
+    println!(
+        "                       {}",
+        "Check the argument value and try again."
+    );
     println!();
-    println!("  {:<28} {}", "UNKNOWN_COMMAND", "The specified command does not exist.");
-    println!("                       {}", "Run 'mvis help' to see all available commands.");
+    println!(
+        "  {:<28} {}",
+        "UNKNOWN_COMMAND", "The specified command does not exist."
+    );
+    println!(
+        "                       {}",
+        "Run 'mvis help' to see all available commands."
+    );
     println!();
     println!("  {:<28} {}", "OTHER", "An unexpected error occurred.");
-    println!("                       {}", "Check the error message above for details.");
+    println!(
+        "                       {}",
+        "Check the error message above for details."
+    );
 }
 
 #[cfg(test)]
